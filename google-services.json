@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "559900580281",
+    "project_id": "dungeoun-f7546",
+    "storage_bucket": "dungeoun-f7546.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559900580281:android:5da5e1e77597c718e1fe68",
+        "android_client_info": {
+          "package_name": "com.example.dz4month"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559900580281-18sidm6uf6ij3ul4bsd90d6nl973sc4v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCArQ17vTg3cNqf4LhklaT0vXau9rPU5Tk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559900580281-18sidm6uf6ij3ul4bsd90d6nl973sc4v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

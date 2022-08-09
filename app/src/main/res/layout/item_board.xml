@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <com.airbnb.lottie.LottieAnimationView
+android:layout_gravity="center"
+        android:id="@+id/imageView"
+        android:layout_width="380dp"
+        android:layout_height="380dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        tools:ignore="MissingClass" />
+
+
+    <TextView
+        android:id="@+id/tv_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="32dp"
+        android:text="Title"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/tvText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="32dp"
+        android:text="Описание"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:backgroundTint="@color/purple_200"
+        android:layout_width="wrap_content"
+        android:text="Начать работу!"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
